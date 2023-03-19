@@ -1,0 +1,11 @@
+21:11:23.615  INFO  [LibraryManager] ---- group creation in G:\Mi unidad\1º DAW\LMSGI\UD6\Actividad 4
+21:11:23.619  INFO  [LibraryManager]  100
+21:12:50.965  INFO  [LibraryManager] shutdown begins
+21:12:51.039  INFO  [LibraryManager]  closed library BD_Libros
+21:12:51.039  INFO  [LibraryManager] shutdown complete.
+21:13:17.034  INFO  [LibraryManager] ---- starting up ----
+21:13:17.040  INFO  [LibraryManager]  100
+21:13:17.612  INFO  [LibraryManager] Library group ready
+21:45:15.721  INFO  [LibraryManager] shutdown begins
+21:45:15.742  INFO  [LibraryManager]  closed library BD_Libros
+21:45:15.743  INFO  [LibraryManager] shutdown complete.

@@ -1,0 +1,39 @@
+<html>
+<body>
+
+<table border="1">
+<tr>
+   <th>Código Libro</th>
+   <th>Título</th>
+   <th>Editorial</th>
+   <th>Edición</th>
+   <th>ISBN</th>
+   <th>Número páginas</th>
+   <th>Nacionalidad Autor</th>
+</tr>
+
+{
+for $libro in doc("BD_Libros.xml")//Libros/libro
+let $codigo:=$libro/Cod_Libro
+let $titulo:=$libro/Titulo
+let $editorial:=$libro/Editorial
+let $edicion:=$libro/Edicion
+let $ISBN:=$libro/ISBN
+let $NumPaginas:=$libro/NumPaginas
+let $AutorNacionalidad:=$libro/Autores/autor/Nacionalidad
+return 
+  <tr> 
+     <td>{data($codigo)}</td>
+     <td>{data($titulo)}</td>
+     <td>{data($editorial)}</td>
+     <td>{data($edicion)}</td>
+     <td>{data($ISBN)}</td>
+     <td>{data($NumPaginas)}</td>
+     <td>{data($AutorNacionalidad)}</td>
+  </tr>
+}
+
+</table>
+
+</body>
+</html>
